@@ -71,4 +71,6 @@ class TestVarasto(unittest.TestCase):
 
     def test_str_funktio_toimii(self):
         print(self.varasto)
+
+        #kommentti
     
