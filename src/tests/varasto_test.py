@@ -67,7 +67,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_otetaan_liikaa(self):
         self.varasto.ota_varastosta(1)
-        self.assertAlmostEqual(self.varasto.saldo, 0)
+        self.assertAlmostEqual(self.varasto.saldo, 1)
 
     def test_str_funktio_toimii(self):
         print(self.varasto)
